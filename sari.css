@@ -1,0 +1,115 @@
+body {
+  font-family: Crimson Text;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 150px; /* Adjust width as needed */
+  height: 70px; /* Adjust height as needed */
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Align children in a row */
+  justify-content: space-between; /* Distribute elements to the start and end of the container */
+  align-items: center; /* Vertically center align the items */
+}
+
+.title {
+  font-size: 50px;
+  color: #FFB612;
+  margin-bottom: 20px;
+  flex: 1; /* Take up available space */
+  text-align: center;
+}
+
+.about-section {
+  background-color: #C1E6FF;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1; /* Take up available space */
+  margin-right: 20px; /* Add some margin between the title and content */
+ max-height: 400px; /* Set the maximum height of the about-section */
+  overflow: hidden; /* Hide content that exceeds the max height */
+ margin-left: 20px;
+margin-right: 30px
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #FFB612;
+  margin-bottom: 10px;
+}
+
+.content {
+  color: #000000;
+  line-height: 1.8;
+}
+
+.image-section img {
+  width: 100%; /* Make the image responsive and fit its container */
+  max-width: 900px;
+  border-radius: 10px; /* Add border radius for rounded corners */
+ max-height: 400px;
+ object-fit: cover; 
+
+}
+
+.image-section {
+  flex-basis: 50%; /* Take up 50% of the available space */
+   margin-bottom: 20px; 
+}
+
+.custom-p {
+  color: #FFB612; /* Set the color for the custom paragraph text */
+  font-size: 20px; /* Set the font size for the custom paragraph text */
+ text-align: center;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex: 1;
+
+}
+
+.sidebar {
+  background-color: #FFB612; /* Set the background color for the sidebar */
+  padding:10px 5px;
+  border-radius: 10px;
+}
+
+/* Style for the sidebar links */
+.sidebar ul {
+  list-style-type: none; /* Remove bullet points from the list */
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 5px;
+  background-color: #FFB612; /* Set the background color for the buttons */
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+text-align: center;
+margin-right: 100px;
+margin-left: 100px;
+}
+
+.sidebar a:hover {
+  background-color: #C1E6FF; /* Set a darker background color when hovering */
+}
+
+

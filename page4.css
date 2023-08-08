@@ -1,0 +1,70 @@
+body, h1, h3, h4, p6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px;
+font-family: Poppins;
+background-color:#FFFFFF;
+color: #000000
+margin-right: 150px;
+margin-left: 150px;
+}
+
+.image-container {
+  display: flex;
+  margin: 20px 0;
+}
+
+.image-container img {
+  width: 48%; /* 48% to fit two images side by side */
+  max-height: 300px; /* Set a maximum height for the images */
+}
+
+
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 40px;
+  text-align: center;
+   color:BEFFB8;
+   background-color: #BEFFB8;
+
+}
+
+
+h3 {
+  font-size: 22px;
+  margin-top: 35px;
+ background-color: #BEFFB8;
+}
+
+h4 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+p6 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.description-box {
+    position: absolute;
+    background-color: #BEFFB8;
+     color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px; /* Adjust width as needed */
+    z-index: 1;
+    display: none;
+  }
+
+  a:hover .description-box {
+    display: block;
+  }
+ a:hover {
+    color: blue;
+  }

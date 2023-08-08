@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.logo {
+  position: absolute;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+}
+
+.logo-left {
+  top: 20px;
+  left: 20px;
+}
+
+.logo-right {
+  top: 20px;
+  right: 20px;
+}
+
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  color: #000000;
+  background-color: #BEFFB8;
+  padding: 20px;
+
+}
+
+.header2 {
+  font-size: 20px;
+  color: #BEFFB8;
+  padding: 15px 5px;
+text-align; center;
+}
+
+.para,
+.para2,
+.para3,
+.para4 {
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+  margin: 0 20px;
+  text-align: left;
+background-color:#BEFFB8; 
+ padding: 20px;
+margin-top: 20px;
+  border-radius: 10px;
+}
+
+.para a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: underline;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+.cta-button:hover {
+  background-color: #C1E6FF;
+}
+
+.research-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 40%;
+  border-radius: 10px;
+  }

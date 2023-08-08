@@ -1,0 +1,44 @@
+body {
+  font-family: Times New Roman, serif;
+  line-height: 1.6;
+  background-color: #C1E6FF;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: left;
+  font-size: 65px;
+  font-weight: bold;
+  color: #000000;
+  background-color: #C1E6FF;
+  padding: 10px;
+  margin: 0;
+}
+
+p {
+  margin: 20px 50px;
+  background-color: #C1E6FF;
+  padding: 10px;
+  font-size: 20px;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%; /* Reduce the width to make the table slightly smaller */
+  margin: 40px auto; /* Center the table */
+}
+
+td, th {
+  border: 3px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+img {
+  display: block;
+  margin: 40px auto;
+  max-width: 100%;
+  height: auto;
+}
